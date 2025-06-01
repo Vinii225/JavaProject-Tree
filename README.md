@@ -38,14 +38,14 @@ Trabalho/
 
 O arquivo `data/students.txt` contém os dados dos alunos no formato:
 ```
-RGM,Nome
+RGM,Nome,Disciplina
 ```
 
 Exemplo:
 ```
-1,Vinicius
-2,Samuel
-3,Luana
+1,Vinicius,Estrutura de Dados
+2,Samuel,Algoritmos
+3,Luana,Programação Orientada a Objetos
 ```
 
 ## 📝 Algoritmos Implementados

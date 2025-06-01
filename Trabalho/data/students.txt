@@ -1,10 +1,10 @@
-1,Vinicius
-2,Samuel
-3,Luana
-4,Daniel
-5,Eduardo
-6,Arthur
-7,Rafael
-8,Carlos
-9,Maria
-10,Pedro
+1,Vinicius,Estrutura de Dados
+2,Samuel,Algoritmos
+3,Luana,Programação Orientada a Objetos
+4,Daniel,Banco de Dados
+5,Eduardo,Redes de Computadores
+6,Arthur,Engenharia de Software
+7,Rafael,Inteligência Artificial
+8,Carlos,Sistemas Operacionais
+9,Maria,Computação Gráfica
+10,Pedro,Desenvolvimento Web

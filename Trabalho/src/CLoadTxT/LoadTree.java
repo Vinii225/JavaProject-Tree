@@ -22,7 +22,11 @@ public class LoadTree {
                     if (parts.length >= 2) {
                         int rgm = Integer.parseInt(parts[0].trim());
                         String name = parts[1].trim();
-                        tree.insert(new ClassStudent(rgm, name));
+                        
+                        // Verificar se há disciplina no arquivo
+                        String disciplina = parts.length >= 3 ? parts[2].trim() : "Não informada";
+                        
+                        tree.insert(new ClassStudent(rgm, name, disciplina));
                     }
                 }
             }

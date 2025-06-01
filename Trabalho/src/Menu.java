@@ -34,8 +34,11 @@ public class Menu {
 
                 System.out.print("Digite o nome do aluno: ");
                 String name = keyboard.nextLine();
+                
+                System.out.print("Digite a disciplina do aluno: ");
+                String disciplina = keyboard.nextLine();
 
-                Tree.insert(new ClassStudent(rgm, name));
+                Tree.insert(new ClassStudent(rgm, name, disciplina));
                 System.out.println("Aluno Inserido.");
 
             } else if (option == 2) {
